@@ -51,8 +51,9 @@ public class MyStack<T>
 		{
 			throw new StackUnderFlowException();
 		}
+		T a = head.val;
 		head = head.next;
-		return head.val;
+		return a;
 	}
 
 	/**
