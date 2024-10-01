@@ -13,6 +13,10 @@ public class MyStack<T>
 	 */
 	public void push(T val)
 	{
+		if (this.isEmpty() == true)
+		{
+			throw new StackUnderFlowException();
+		}
 
 	}
 
