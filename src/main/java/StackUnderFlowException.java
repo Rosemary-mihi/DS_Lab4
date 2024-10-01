@@ -7,7 +7,7 @@ public class StackUnderFlowException extends RuntimeException
 
 	public StackUnderFlowException()
 	{
-		super();
+		super("stack is empty");
 	}
 
 	public StackUnderFlowException(String message)
