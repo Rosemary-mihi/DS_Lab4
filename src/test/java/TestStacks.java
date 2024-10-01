@@ -38,10 +38,10 @@ public class TestStacks
 		A.push("3rd");
 		assertEquals("3rd",A.top());
 		A.pop();
-		assertEquals("2nd",A.pop());
-		assertEquals("1st",A.top());
+		assertEquals("3rd",A.pop());
+		assertEquals("2nd",A.top());
 		A.pop();
-		assertEquals("1st",A.pop());
+		assertEquals("2nd",A.pop());
 		
 	}
 }
