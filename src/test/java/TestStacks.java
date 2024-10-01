@@ -30,7 +30,7 @@ public class TestStacks
 	{
 		A = new MyStack<String>();
 		assertTrue(A.isEmpty());
-		A.push("1st");
+		A.push("1st");//first
 		assertFalse(A.isEmpty());
 		assertEquals("1st",A.top());
 		A.push("2nd");
@@ -38,10 +38,9 @@ public class TestStacks
 		A.push("3rd");
 		assertEquals("3rd",A.top());
 		A.pop();
-		assertEquals("3rd",A.pop());
 		assertEquals("2nd",A.top());
 		A.pop();
-		assertEquals("2nd",A.pop());
+		assertEquals("1st",A.top());
 		
 	}
 }

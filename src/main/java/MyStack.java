@@ -1,6 +1,9 @@
 
 public class MyStack<T>
 {
+	private T[] Array;
+	private int size = 0; 
+
 
 	public MyStack()
 	{
