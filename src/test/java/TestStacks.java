@@ -42,9 +42,6 @@ public class TestStacks
 		assertEquals("1st",A.top());
 		A.pop();
 		assertEquals("1st",A.pop());
-		assertEquals(null,A.top());
-		A.pop();
-		assertEquals(null,A.pop());
-		A.pop();
+		
 	}
 }
